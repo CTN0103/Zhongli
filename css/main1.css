@@ -1,0 +1,345 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding: 0;
+	margin: 0;
+}
+#banner
+{
+	background-image: url("../image/banner.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: antiquewhite;
+	text-align: center;
+	
+}
+
+#banner h1
+{
+	text-align: center;
+	font-size: 90px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	padding-top: 15%;
+	
+
+	
+}
+#banner i{
+	padding: 10px 20px;
+	
+}
+a{
+	color: antiquewhite;
+}
+#aboutus{
+	clear: both;
+	height: 100vh;
+	box-sizing: border-box;
+	background-color:#130E0C
+}
+#aboutus .hinhanh img{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+#aboutus .hinhanh{
+	float: right;
+	width: 35%;
+}
+#aboutus .noidung{
+	float: left;
+	width: 50%;
+	font-family: "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: left;
+	color: antiquewhite;
+	box-sizing: content-box;
+	height: 500px;
+	padding: 70px 20px 70px 70px;
+	
+		
+		
+}
+#aboutus .noidung h2{
+	padding: 0 0 20px;
+	font-size: 30px;
+	color: darkgoldenrod;
+	
+}
+#MORAX{
+	clear: both;
+	height:100vh;
+	box-sizing: border-box;
+	background-color: antiquewhite;
+}
+#MORAX .hinhanh2 img{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	
+}
+#MORAX .hinhanh2{
+	float: left;
+	width: 30%;
+}
+#MORAX .noidung2{
+	padding: 50px 50px 50px 0px;
+	width: 60%;
+	float: right;
+}
+
+#MORAX .noidung2 h1{
+	text-align: center;
+	font-size: 100px;
+	padding-bottom: 50px;
+	color: darkgoldenrod;
+	box-sizing: content-box;
+}
+
+#Portfolio{
+	clear: both;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100vh;
+	padding: 20px 100px 60px;
+	text-align: center;
+}
+#Portfolio h1{
+	font-size: 60px;
+	padding: 20px 30px 10px 30px;
+}
+
+#Portfolio li{
+	display: inline;
+	text-align: center;
+	padding: 5px;
+}
+#Portfolio li:hover{
+	background-color: antiquewhite;
+}
+.talent{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 100px;
+	padding: 40px 480px;
+	grid-column-gap: 5px;
+}
+.talents1{
+	background-image: url("../image/T1.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.talents2{
+	background-image: url("../image/T2.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.talents3{
+	background-image: url("../image/T3.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+
+.constellations{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 100px 100px;
+	padding: 40px 480px 60px ;
+	grid-row-gap: 15px;
+	grid-column-gap: 10px;
+}
+.constellation1{
+	background-image: url("../image/C1.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}.constellation2{
+	background-image: url("../image/C2.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.constellation3{
+	background-image: url("../image/C3.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.constellation4{
+	background-image: url("../image/C4.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.constellation5{
+	background-image: url("../image/C5.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+.constellation6{
+	background-image: url("../image/C6.png");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+}
+#wfp{
+	clear: both;
+}
+#wfp .intro{
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px 0 100px 0;
+	background-color: darkgoldenrod;
+}
+#wfp .intro h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 50px;
+}
+.info{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 100px 350px;
+}
+.description{
+	width: 250px;
+	height: 250px;
+	background-image: url("../image/Description.jpg");
+	background-size: cover;
+	background-position: center;
+		
+}
+.location{
+	width: 250px;
+	height: 250px;
+	background-image: url("../image/location.jpg");
+	background-size: cover;
+	background-position: center;
+		
+}
+.members{
+	width: 250px;
+	height: 250px;
+	background-image: url("../image/Member.jpg");
+	background-size: cover;
+	background-position: center;
+		
+}
+#trivia{
+	margin-top: 20px;
+	background-color: antiquewhite;
+	padding: 20px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+}
+#trivia h1{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+#trivia li:hover{
+	background-color: bisque;
+	display: list-item;
+	
+}
+#trivia button{
+	background-color: transparent;
+	border: 1px solid #232323;
+	margin-top: 5px;
+}
+#trivia button:hover{
+	background-color: darkgoldenrod;
+}
+#form{
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#form h1{
+	padding: 30px 10px 10px;
+		
+}
+.contact{
+	display: flex;
+	justify-content: center;
+
+}
+.contact1{
+	padding: 20px 40px;
+}
+table{
+	text-align: left;
+	margin: 0 auto;
+	width: 40%;
+}
+table input,textarea{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #444343;
+	
+}
+table tr td{
+	padding: 10px;
+}
+button{
+	border: none;
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 5px 10px;
+	border-radius: 20px
+}
+footer{
+	margin-top: 20px;
+	background-color: black;
+	text-align: center;
+	color: antiquewhite;
+	padding: 40px;
+	font-size: 14px;
+}
+button{
+	background: transparent;
+	border: none;
+	padding: 5px 10px;
+	border: 1px solid #885517;
+	border-radius: 20px;
+}
+#ontop
+{
+	position: fixed;
+	z-index: 99;
+	right: 30px;
+	bottom: 30px;
+	background-color: darkgoldenrod;
+	border: none;
+}
+#ontop:hover{
+	background-color:burlywood;
+}
+#html{
+	scroll-behavior: smooth;
+}
+.chuyentiep{
+	animation:  nhayxuong 1s infinite;
+}
+
+@keyframes nhayxuong{
+	0%{
+		transform: translateY(0);
+	}
+	100%{
+		transform: translateY(30px);
+	}
+}
